@@ -46,8 +46,8 @@ DIAGRAMMA:
 https://app.creately.com/d/1L6dODjjO2C/edit
 
 
-Diagramma Relazionale
-Dipendente((<ins>Matricola</ins>),Nome, Cognome, Mansione, richiesta_id)<br>
-Richiesta((<ins>id_richiesta</ins>), Descrizione, Data)<br>
-Manutentore((<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio,richiesta_id,cellulare_id)<br>
-Cellulare((<ins>id_cellulare</ins>), Marca, Garanzia, dipendente_matricola)
+Diagramma Relazionale<br>
+Dipendente(<ins>Matricola</ins>,Nome, Cognome, Mansione, richiesta_id)<br>
+Richiesta(<ins>id_richiesta</ins>, Descrizione, Data)<br>
+Manutentore(<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio,richiesta_id,cellulare_id)<br>
+Cellulare(<ins>id_cellulare</ins>, Marca, Garanzia, dipendente_matricola)
