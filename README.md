@@ -41,3 +41,6 @@ MANUTENTORE
 
 MOCKUP:
 https://www.figma.com/file/WJ7dYeNht5lB1BrytkAcye/Assistenza-Telefoni?type=design&node-id=0%3A1&mode=design&t=OEnEaTCg1jcz8l0f-1
+
+DIAGRAMMA:
+https://app.creately.com/d/1L6dODjjO2C/edit
