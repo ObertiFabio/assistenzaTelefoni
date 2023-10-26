@@ -44,3 +44,10 @@ https://www.figma.com/file/WJ7dYeNht5lB1BrytkAcye/Assistenza-Telefoni?type=desig
 
 DIAGRAMMA:
 https://app.creately.com/d/1L6dODjjO2C/edit
+
+
+Diagramma Relazionale
+Dipendente((<ins>Matricola</ins>),Nome, Cognome, Mansione, richiesta_id)
+Richiesta((<ins>id_richiesta</ins>), Descrizione, Data)
+Manutentore((<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio,richiesta_id,cellulare_id)
+Cellulare((<ins>id_cellulare</ins>), Marca, Garanzia, dipendente_matricola)
