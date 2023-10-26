@@ -19,7 +19,7 @@ RICHIESTA
        E' prsente anche un attributo data per specificare il momento nel quale è stata effettuata la richiesta
        
 CELLULARE
-((<ins>id_cellulare</ins>), marca, assegnazione,garanzia)
+((<ins>id_cellulare</ins>), marca,garanzia)
 
 ----->  E' assegnato ad un dipendente. In caso di necessità di sotituzione, esso va mandato in riparazione
 
