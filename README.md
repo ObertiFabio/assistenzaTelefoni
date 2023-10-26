@@ -6,25 +6,25 @@ dipendenti con problemi al cellulare aziendale
 
 
 DIPENDENTE
-(nome, cognome, matricola, mansione)
+(nome, cognome, (<ins>matricola</ins>), mansione)
 
 -----> Può effettuare una richiesta al manutentore in caso di problema.
        Comunica i suoi dati personali, il problema al cellulare aziendale.
        Ogni dipendente può inviare più richieste.
        
 RICHIESTA
-(id_richiesta, descrizione, data)
+((<ins>id_richiesta</ins>, descrizione, data)
 
 -----> La richiesta viene gestita grazie da una chiave id_richiesta, il dipendente fornisce una descrizione del problema 
        E' prsente anche un attributo data per specificare il momento nel quale è stata effettuata la richiesta
        
 CELLULARE
-(marca, assegnazione,garanzia)
+((<ins>id_cellulare</ins>), marca, assegnazione,garanzia)
 
 ----->  E' assegnato ad un dipendente. In caso di necessità di sotituzione, esso va mandato in riparazione
 
 MANUTENTORE
-(nome, disponibilità, titolo di studio)
+(nome, (<ins>id_manutentore</ins>), disponibilità, titolo di studio)
 
 ----->  Riceve e gestisce le richieste di un dipendente. Una volta risolto il problema ritorna il dispositivo al proprietario.
         Ogni manutentore può gestire una singola richiesta alla volta.
