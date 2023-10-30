@@ -1,5 +1,5 @@
 **PROBLEMA:**
-Informatizzare e rendere più efficente il processo di riparazione o di sostituzione di un cellulare aziendale
+Informatizzare e rendere più efficente il processo di riparazione di un cellulare aziendale
 
 **TARGET:**
 dipendenti con problemi al cellulare aziendale
