@@ -32,11 +32,13 @@ MANUTENTORE
 
 
 - invio richiesta da parte di un dipendente
+- invio descrizione problema del cellulare
 - Accettazione da parte del manutentore
 - Individuazione del problema
 - Sistemazione dell'assegnamento al cellulare
 - Conferma risoluzione problema
 - Archiviazione della richiesta
+- accesso account manutentore
 
 
 
