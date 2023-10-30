@@ -33,12 +33,10 @@ dipendenti con problemi al cellulare aziendale
 
 - invio richiesta da parte di un dipendente
 - invio descrizione problema del cellulare
-- Accettazione da parte del manutentore
-- Individuazione del problema
-- Sistemazione dell'assegnamento al cellulare
-- Conferma risoluzione problema
-- Archiviazione della richiesta
-- accesso account manutentore
+- Accesso account Manutentore
+- accesso account dipendente
+- Visulizzazione richieste di un manutentore
+
 
 
 
@@ -54,4 +52,11 @@ Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità
 - invio descrizione problema del cellulare
 ![mokup_invio_Richiesta](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/a5df0d14-0248-44ca-b59d-085c61040692)
 
+- Accesso account Manutentore
+![mokup_account](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/bb45545c-ce42-4bd8-a99a-7dc8a351ca86)
 
+- accesso account dipendente
+![mokupAccesso_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/6fd98591-82b5-4ed8-987e-b24fffb9a98a)
+
+- Visulizzazione richieste di un manutentore
+![mokup_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/79bc99d3-b052-46e9-87a2-f67139c71ea5)
