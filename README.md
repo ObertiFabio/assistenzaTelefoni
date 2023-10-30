@@ -57,6 +57,7 @@ Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità
 
 
 - accesso account dipendente
+  
 ![mokupAccesso_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/6fd98591-82b5-4ed8-987e-b24fffb9a98a)
 
 - Visulizzazione richieste di un manutentore
