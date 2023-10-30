@@ -47,3 +47,11 @@ Dipendente(<ins>Matricola</ins>, mansione, nome, cognome)<br>
 Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)<br>
 Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)<br>
 Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità)<br>
+
+
+**MOCKUP**
+- invio richiesta da parte di un dipendente
+- invio descrizione problema del cellulare
+![mokup_invio_Richiesta](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/a5df0d14-0248-44ca-b59d-085c61040692)
+
+
