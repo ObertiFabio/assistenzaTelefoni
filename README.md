@@ -42,7 +42,7 @@ MANUTENTORE
 
 
 
-Diagramma Relazionale<br>
+**Diagramma Relazionale**<br>
 Dipendente(<ins>Matricola</ins>,Nome, Cognome, Mansione, Richiesta_id)<br>
 Richiesta(<ins>id_richiesta</ins>, Descrizione, Data)<br>
 Manutentore(<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio, Richiesta_id, Cellulare_id)<br>
