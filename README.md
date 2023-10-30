@@ -55,6 +55,7 @@ Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità
 - Accesso account Manutentore
 ![mokup_account](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/bb45545c-ce42-4bd8-a99a-7dc8a351ca86)
 
+
 - accesso account dipendente
 ![mokupAccesso_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/6fd98591-82b5-4ed8-987e-b24fffb9a98a)
 
