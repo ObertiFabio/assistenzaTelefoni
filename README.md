@@ -29,7 +29,11 @@ dipendenti con problemi al cellulare aziendale
 ----->  Riceve e gestisce le richieste di un dipendente. Una volta risolto il problema ritorna il dispositivo al proprietario.
         Ogni manutentore può gestire una singola richiesta alla volta.
 
+**PROBLEMA**
+(<ins>ID_problema</ins>, tipo, tempoRiparazione)
 
+-----> Il manutentore capisce di quale problema si tratta e lo comunica tramite l'attributo "tipo", e fornisce anche un tempo di riparazione 
+       indicativo
 
 - invio richiesta da parte di un dipendente
 - invio descrizione problema del cellulare
@@ -37,7 +41,6 @@ dipendenti con problemi al cellulare aziendale
 - accesso account dipendente
 - Visulizzazione richieste di un manutentore
 - Individuazione problema
-- sistemazione assegnamento cellulare
 
 
 
