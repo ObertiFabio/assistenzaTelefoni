@@ -36,6 +36,8 @@ dipendenti con problemi al cellulare aziendale
 - Accesso account Manutentore
 - accesso account dipendente
 - Visulizzazione richieste di un manutentore
+- Individuazione problema
+- sistemazione assegnamento cellulare
 
 
 
