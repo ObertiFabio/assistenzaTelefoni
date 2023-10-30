@@ -43,6 +43,9 @@ dipendenti con problemi al cellulare aziendale
 - Individuazione problema
 
 
+**Diagramma ER**
+
+![diagramma ER](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/5fecf8ee-9ec5-4c93-8cbb-7a7b5dcf0a3a)
 
 
 **Diagramma Relazionale**<br>
