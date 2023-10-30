@@ -43,7 +43,7 @@ dipendenti con problemi al cellulare aziendale
 
 
 **Diagramma Relazionale**<br>
-Dipendente(<ins>Matricola</ins>,Nome, Cognome, Mansione, Richiesta_id)<br>
-Richiesta(<ins>id_richiesta</ins>, Descrizione, Data)<br>
-Manutentore(<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio, foto, Richiesta_id, Cellulare_id)<br>
-Cellulare(<ins>id_cellulare</ins>, Marca, Garanzia, Dipendente_matricola)
+Dipendente(<ins>Matricola</ins>, mansione, nome, cognome)
+Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)
+Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)
+Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità)
