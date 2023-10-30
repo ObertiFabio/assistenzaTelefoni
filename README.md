@@ -61,4 +61,6 @@ Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità
 ![mokupAccesso_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/6fd98591-82b5-4ed8-987e-b24fffb9a98a)
 
 - Visulizzazione richieste di un manutentore
-![mokup_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/79bc99d3-b052-46e9-87a2-f67139c71ea5)
+- 
+![mokup_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/1da6e142-ca3d-45e4-919c-abc7c0c63882)
+
