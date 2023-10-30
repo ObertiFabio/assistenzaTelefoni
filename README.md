@@ -71,4 +71,6 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
  
 ![mokup_progetto](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/38e2d7a4-eb6c-47c9-9f16-2f3d581e2350)
 
+- Individuazione problema
 
+  ![mockup_problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/cc77552a-1d28-4db5-ba3d-eef65e962c38)
