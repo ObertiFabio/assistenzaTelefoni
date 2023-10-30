@@ -24,7 +24,7 @@ dipendenti con problemi al cellulare aziendale
 ----->  E' assegnato ad un dipendente. In caso di necessità di sotituzione, esso va mandato in riparazione
 
 **MANUTENTORE**
-(nome, <ins>id_manutentore</ins>, disponibilità, titolo di studio)
+(nome, <ins>id_manutentore</ins>, disponibilità, titolo di studio, foto)
 
 ----->  Riceve e gestisce le richieste di un dipendente. Una volta risolto il problema ritorna il dispositivo al proprietario.
         Ogni manutentore può gestire una singola richiesta alla volta.
@@ -45,5 +45,5 @@ dipendenti con problemi al cellulare aziendale
 **Diagramma Relazionale**<br>
 Dipendente(<ins>Matricola</ins>,Nome, Cognome, Mansione, Richiesta_id)<br>
 Richiesta(<ins>id_richiesta</ins>, Descrizione, Data)<br>
-Manutentore(<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio, Richiesta_id, Cellulare_id)<br>
+Manutentore(<ins>id_manutentore</ins>, Nome, Disponibilità, TitoloDiStudio, foto, Richiesta_id, Cellulare_id)<br>
 Cellulare(<ins>id_cellulare</ins>, Marca, Garanzia, Dipendente_matricola)
