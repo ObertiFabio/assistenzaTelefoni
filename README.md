@@ -13,7 +13,7 @@ dipendenti con problemi al cellulare aziendale
        Ogni dipendente può inviare più richieste.
        
 **RICHIESTA**
-(<ins>id_richiesta</ins>, descrizione, data)
+(<ins>id_richiesta</ins>, descrizione, data, stato)
 
 -----> La richiesta viene gestita grazie da una chiave id_richiesta, il dipendente fornisce una descrizione del problema 
        E' prsente anche un attributo data per specificare il momento nel quale è stata effettuata la richiesta
@@ -43,7 +43,7 @@ dipendenti con problemi al cellulare aziendale
 
 
 **Diagramma Relazionale**<br>
-Dipendente(<ins>Matricola</ins>, mansione, nome, cognome)
-Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)
-Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)
-Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità)
+Dipendente(<ins>Matricola</ins>, mansione, nome, cognome)<br>
+Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)<br>
+Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)<br>
+Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità)<br>
