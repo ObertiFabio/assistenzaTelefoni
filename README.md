@@ -9,7 +9,7 @@ dipendenti con problemi al cellulare aziendale
 (nome, cognome, <ins>matricola</ins>, mansione)
 
 -----> Può effettuare una richiesta al manutentore in caso di problema.
-       Comunica i suoi dati personali, il problema al cellulare aziendale.
+       Comunica la sua matricola e  il problema al cellulare aziendale.
        Ogni dipendente può inviare più richieste.
        
 **RICHIESTA**
