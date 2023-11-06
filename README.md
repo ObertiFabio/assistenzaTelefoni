@@ -2,7 +2,7 @@
 Informatizzare e rendere più efficente il processo di riparazione di un cellulare aziendale
 
 **TARGET:**
-dipendenti con problemi al cellulare aziendale
+aziende con manutentori  che devono organizzare la gestione dei problemi ai dispositivi assegnati ad ogni dipendente
 
 
 **DIPENDENTE**
