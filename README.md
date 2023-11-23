@@ -1,5 +1,5 @@
 **PROBLEMA:**
-Informatizzare e rendere più efficente il processo di riparazione di un cellulare aziendale
+organizzazione della gestione dei problemi ai dispositivi assegnati ad ogni dipendete all'interno di un azienda 
 
 **TARGET:**
 aziende con manutentori  che devono organizzare la gestione dei problemi ai dispositivi assegnati ad ogni dipendente
