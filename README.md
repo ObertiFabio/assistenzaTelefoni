@@ -49,10 +49,10 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 
 **Diagramma Relazionale**<br>
-Dipendente(<ins>Matricola</ins>, mansione, nome, cognome)<br>
+Dipendente(<ins>Matricola</ins>, mansione, nome, cognome, password)<br>
 Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)<br>
 Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)<br>
-Manutentore(<ins>ID_Manutentore</ins>, Titolo_studio, Nome, Foto, Disponibilità)<br>
+Manutentore(<ins>ID_Manutentore</ins>, password, Nome, Foto)<br>
 Problema(<ins>ID_problema</ins>, tipo, tempoRiparazione)<br>
 Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
