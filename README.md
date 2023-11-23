@@ -63,17 +63,20 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 ![mokup_invio_Richiesta](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/a5df0d14-0248-44ca-b59d-085c61040692)
 
 - Accesso account Manutentore
-![mokup_account](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/bb45545c-ce42-4bd8-a99a-7dc8a351ca86)
 
+![account_manu](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/eba1c1b1-f396-44f4-8528-e8cef579c067)
 
 - accesso account dipendente
   
-![mokupAccesso_dipendente](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/6fd98591-82b5-4ed8-987e-b24fffb9a98a)
+![account_dip](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/61fe4b1b-7bdb-48ad-a124-bea73aaf2b6a)
+
 
 - Visulizzazione richieste di un manutentore
  
-![mokup_progetto](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/38e2d7a4-eb6c-47c9-9f16-2f3d581e2350)
+![elenco_richieste](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/0c5f0d5e-0ae0-4473-9627-05907aa9e3f7)
+
 
 - Individuazione problema
 
-  ![mockup_problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/cc77552a-1d28-4db5-ba3d-eef65e962c38)
+  ![problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/cf5917b3-aa9c-4bc1-9667-c18c2bfbf260)
+
