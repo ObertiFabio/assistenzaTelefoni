@@ -45,7 +45,8 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 **Diagramma ER**
 
-![diagramma ER](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/5fecf8ee-9ec5-4c93-8cbb-7a7b5dcf0a3a)
+![er finito](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/ebc4fcc6-055c-43c0-ba6c-caf81797a0bb)
+
 
 
 **Diagramma Relazionale**<br>
