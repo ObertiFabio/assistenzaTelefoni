@@ -15,6 +15,6 @@
         }
     }catch(Exception $e){
         echo $e->getMessage();
-        header("location: /registra.php");
+        header("location: /www/registra.php");
     }
 ?>
