@@ -19,12 +19,12 @@ session_start();
             header("location: /www/index.php");
         }else{
             echo "Errore: Matricola o password non validi. Perfavore riprovare!";
-            header("location: /login.php?error=1");
+            header("location: /www/login.php?error=1");
         }
     
     }catch(Exception $e){
         echo $e->getMessage();
-        header("location: /login.php");
+        header("location: /www/login.php");
     }
 
 ?>
