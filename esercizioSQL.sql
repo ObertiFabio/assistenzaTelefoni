@@ -30,7 +30,7 @@ CREATE TABLE richiesta(
     stato CHAR(20) NOT NULL,
     CONSTRAINT gino FOREIGN KEY (dipendente_Matricola) REFERENCES dipendenti(matricola),
     CONSTRAINT marco FOREIGN KEY (Cellulare_ID) REFERENCES cellulare(id_cellulare),
-    CONSTRAINT filippo FOREIGN KEY (id_manutentore) REFERENCES manutentore(id_manutentore)
+    CONSTRAINT filippo FOREIGN KEY (Manutentore_ID) REFERENCES manutentore(id_manutentore)
 );
 
 CREATE TABLE problema(
