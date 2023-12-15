@@ -16,7 +16,7 @@
         <input type="password" name="password" id="password" required><br>
         
         
-        <input type="submit" value="Register">
+        <input type="submit" value="Registrati">
     </form>
     <?php
         if (isset($_GET['error']) && $_GET['error'] == 2) {
