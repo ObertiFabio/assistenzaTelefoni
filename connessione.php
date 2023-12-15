@@ -19,7 +19,7 @@ $db = "oberti";
 //
 // 	Istanza dell'oggetto della classe MySQLi
 //
-$connessione = new mysqli($host, $matricola, $password, $db);
+$connessione = new mysqli($host,$user, $password, $db);
 //
 // 	Verifica su eventuali errori di connessione
 //

@@ -1,7 +1,7 @@
 CREATE TABLE dipendenti(
     matricola CHAR(10) PRIMARY KEY,
     nome CHAR(20) NOT NULL,
-    cognome CHAR(20) NOT NULL,
+    email CHAR(20) NOT NULL,
     mansione CHAR(20) NOT NULL,
     password CHAR(20) NOT NULL
 );
@@ -16,6 +16,7 @@ CREATE TABLE manutentore(
     id_manutentore CHAR(10) PRIMARY KEY,
     nome CHAR(20) NOT NULL,
     foto CHAR(20) NOT NULL,
+    email CHAR(20) NOT NULL,
     password CHAR(20) NOT NULL
 );
 
