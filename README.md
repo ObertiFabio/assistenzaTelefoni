@@ -82,6 +82,4 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
   ![problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/cf5917b3-aa9c-4bc1-9667-c18c2bfbf260)
 
-**CODICE SQL**
 
-![SQL_Progetto](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/f42c3ecb-cefe-4ffa-aad0-db2b69a0c770)
