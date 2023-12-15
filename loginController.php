@@ -9,7 +9,7 @@ session_start();
 
     try{
 
-        $sql = "SELECT * FROM users WHERE matricola = '$matricola' AND password = '$password'";
+        $sql = "SELECT * FROM dipendenti WHERE matricola = '$matricola' AND password = '$password'";
         $result = $connessione->query($sql);
 
         if($result->num_rows > 0){

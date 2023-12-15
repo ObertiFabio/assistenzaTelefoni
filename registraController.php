@@ -8,7 +8,7 @@
     $password=md5($password);
 
     try{
-        $registra = "INSERT INTO users (matricola, email, password) VALUES ('$matricola', '$email', '$password')";
+        $registra = "INSERT INTO dipendenti (matricola, email, password) VALUES ('$matricola', '$email', '$password')";
         if($connessione->query($registra)){
             echo "Registrazione effettuata con successo!";
             header("location: /www/login.php");
