@@ -11,7 +11,7 @@
         $registra = "INSERT INTO users (matricola, email, password) VALUES ('$matricola', '$email', '$password')";
         if($connessione->query($registra)){
             echo "Registrazione effettuata con successo!";
-            header("location: /login.php");
+            header("location: /www/login.php");
         }
     }catch(Exception $e){
         echo $e->getMessage();
