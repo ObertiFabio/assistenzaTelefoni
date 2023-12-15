@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <form action=registra.php method="POST">
-            <input type="text" name="matricola" placeholder="matricola"/><br>
-            <input type="text" name="cognome" placeholder="cognome"/><br>
-            <input type="text" name="password" placeholder="password"/><br>
-            <input type="submit" />
-        </form>
-        <?php
-         if (isset($_GET["error"]) && $_GET["error"] == 1) {
-            echo "<p style='color: red;'>Errore: Nome utente o password non validi. Perfavore riprovare!</p>";
-        }
-        ?>
+    <head>
+        <title>Register</title>
+    </head>
+<body>
+    <h1>Registrazione</h1>
+    <form method="POST" action="registraController.php">
+        <label for="matricola">Inserisci Matricola:</label>
+        <input type="text" name="matricola" id="matricola" required><br>
 
+        <label for="email">Inserisci Email:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="password">Inserisci la Password:</label>
+        <input type="password" name="password" id="password" required><br>
         
-    </body>
+        
+        <input type="submit" value="Register">
+    </form>
+    <?php
+        if (isset($_GET['error']) && $_GET['error'] == 2) {
+            echo "<br>email already in use";
+        }
+        if (isset($_GET['error']) && $_GET['error'] == 3) {
+            echo "<br>matricola already in use";
+        }
+    ?>
+</body>
 </html>

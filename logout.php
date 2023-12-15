@@ -1,7 +1,5 @@
 <?php
-    $_SESSION['matricola'] = null;
-    $_SESSION['password'] = null;
-
+    session_start();
     session_destroy();
     header("location: /login.php");
 ?>

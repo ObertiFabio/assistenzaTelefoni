@@ -1,9 +1,11 @@
 <?php
-    header("location: /login.php");
+    include 'connessione.php';
+    session_start();
+    
 ?>
 <html>
     <body>
-        <a href="login.php">Login</a>
-        <a href="registra.php">Registrati</a>
+        <h1>Benvenuto <?php echo $_SESSION['matricola']; ?></h1>
+        <a href="logout.php">Logout</a>
     </body>
 </html>

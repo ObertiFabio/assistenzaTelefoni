@@ -1,16 +1,23 @@
+<!DOCTYPE html>
 <html>
-
+<head>
+    <title>Login Page</title>
+</head>
 <body>
-    <form action="login.php" method="POST">
-        <input type="text" name="matricola" placeholder="matricola" /><br>
-        <input type="text" name="password" placeholder="password" /><br>
-        <input type="submit" />
+    <h2>Login</h2>
+    <form method="POST" action="loginController.php">
+        <label for="matricola">Matricola:</label>
+        <input type="matricola" id="matricola" name="matricola" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
     </form>
+    <br>
+    <a href="registra.php"><button>Registrati</button></a>
     <?php
-    if (isset($_GET["error"]) && $_GET["error"] == 1) {
-        echo "<p style='color: red;'>Errore: Nome utente o password non validi. Perfavore riprovare!</p>";
-    }
+        if (isset($_GET['error']) && $_GET['error'] == 1) {
+            echo "<br><br><p style='color: red;'>Errore: Nome utente o password non validi. Perfavore riprovare!</p>";
+        }
     ?>
-    <a href="registra.php">Registrati</a>
-
+</body>
 </html>

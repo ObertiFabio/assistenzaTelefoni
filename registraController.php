@@ -1,28 +1,20 @@
 <?php
-    var_dump($_POST);
-    $matricola = $_POST['matricola'];
-    $nome = $_POST['nome'];
-    $cognome = $_POST['cognome'];
-    $password = $_POST['password'];
-    $password=md5($password);
-    $db = new mysquli('localhost', 'root', '', 'oberti');
+    include "connessione.php";
 
-    if($db->connect_error){
-        echo("Connessione fallita: " . $db->connect_error);
-        exit();
-    }
-    else{
-        try{
-            echo("Connessione effettuata correttamente");
-            $la_query="insert into dipendente (matricola,nome,cognome,password) values('$matricola','$nome','$cognome','$password')";
-            $db->query($la_query); 
+    $matricola = $_POST['matricola'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    $password=md5($password);
+
+    try{
+        $registra = "INSERT INTO users (matricola, email, password) VALUES ('$matricola', '$email', '$password')";
+        if($connessione->query($registra)){
+            echo "Registrazione effettuata con successo!";
             header("location: /login.php");
         }
-        catch(Exception $e){
-            $err=  $e->getMessage();
-            //redirect registrazione.php
-            header("location: /registra.php?err=$err");
-        }
-        
-    }   
+    }catch(Exception $e){
+        echo $e->getMessage();
+        header("location: /registra.php");
+    }
 ?>
