@@ -16,7 +16,7 @@ session_start();
             echo "Login effettuato con successo!";
             $_SESSION['matricola'] = $matricola;
             $_SESSION['password'] = $password;
-            header("location: /index.php");
+            header("location: /www/index.php");
         }else{
             echo "Errore: Matricola o password non validi. Perfavore riprovare!";
             header("location: /login.php?error=1");

@@ -5,7 +5,7 @@
 ?>
 <html>
     <body>
-        <h1>Benvenuto <?php echo $_SESSION['matricola']; ?></h1>
+        <h1>Benvenuto!!</h1>
         <a href="logout.php">Logout</a>
     </body>
 </html>
