@@ -45,12 +45,13 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 **Diagramma ER**
 
-![er finito](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/ebc4fcc6-055c-43c0-ba6c-caf81797a0bb)
+![diagramma](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/116f37ac-caee-4896-a571-01fc445ecf40)
+
 
 
 
 **Diagramma Relazionale**<br>
-Dipendente(<ins>Matricola</ins>, mansione, nome, password)<br>
+Dipendente(<ins>Matricola</ins>, mansione, email, nome, password)<br>
 Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)<br>
 Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)<br>
 Manutentore(<ins>ID_Manutentore</ins>, password, Nome, Foto, email)<br>
