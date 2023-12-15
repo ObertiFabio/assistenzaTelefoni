@@ -6,7 +6,7 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 
 **DIPENDENTE**
-(nome, cognome, <ins>matricola</ins>, mansione)
+(<ins>matricola</ins>, email, nome, mansione)
 
 -----> Può effettuare una richiesta al manutentore in caso di problema.
        Comunica la sua matricola e  il problema al cellulare aziendale.
