@@ -43,3 +43,5 @@ CREATE TABLE contiene(
     id_problema INT REFERENCES problema(id_problema) ON DELETE CASCADE,
     id_richiesta INT REFERENCES richiesta(id_richiesta) ON DELETE CASCADE
 );
+
+ALTER TABLE contiene ADD PRIMARY KEY (id_problema, id_richiesta);
