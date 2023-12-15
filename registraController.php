@@ -15,6 +15,7 @@
         }
     }catch(Exception $e){
         echo $e->getMessage();
+        echo "Errore: Registrazione non effettuata. Perfavore riprovare!";
         header("location: /www/registra.php");
     }
 ?>
