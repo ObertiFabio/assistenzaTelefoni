@@ -6,7 +6,7 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 
 **DIPENDENTE**
-(nome, cognome, <ins>matricola</ins>, mansione)
+(<ins>matricola</ins>, email, nome, mansione, password)
 
 -----> Può effettuare una richiesta al manutentore in caso di problema.
        Comunica la sua matricola e  il problema al cellulare aziendale.
@@ -24,7 +24,7 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 ----->  E' assegnato ad un dipendente. In caso di necessità di sotituzione, esso va mandato in riparazione
 
 **MANUTENTORE**
-(nome, <ins>id_manutentore</ins>, disponibilità, titolo di studio, foto)
+(<ins>id_manutentore</ins>, nome, email, foto, password)
 
 ----->  Riceve e gestisce le richieste di un dipendente. Una volta risolto il problema ritorna il dispositivo al proprietario.
         Ogni manutentore può gestire una singola richiesta alla volta.
@@ -45,15 +45,16 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 
 **Diagramma ER**
 
-![er finito](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/ebc4fcc6-055c-43c0-ba6c-caf81797a0bb)
+![diagramma](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/116f37ac-caee-4896-a571-01fc445ecf40)
+
 
 
 
 **Diagramma Relazionale**<br>
-Dipendente(<ins>Matricola</ins>, mansione, nome, cognome, password)<br>
+Dipendente(<ins>Matricola</ins>, mansione, email, nome, password)<br>
 Richiesta(<ins>ID_richiesta</ins>, descrizione, data, stato, dipendente_Matricola, Cellulare_ID, Manutentore_ID)<br>
 Cellulare(<ins>ID_Cellulare</ins>, Marca, Garanzia)<br>
-Manutentore(<ins>ID_Manutentore</ins>, password, Nome, Foto)<br>
+Manutentore(<ins>ID_Manutentore</ins>, password, Nome, Foto, email)<br>
 Problema(<ins>ID_problema</ins>, tipo, tempoRiparazione)<br>
 Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
