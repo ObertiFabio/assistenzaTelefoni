@@ -16,6 +16,7 @@
     <a href="registra.php"><button>Registrati</button></a>
     <?php
         if (isset($_GET['error']) && $_GET['error'] == 1) {
+            echo $e -> $_GET['error'];
             echo "<br><br><p style='color: red;'>Errore: Nome utente o password non validi. Perfavore riprovare!</p>";
         }
     ?>
