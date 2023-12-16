@@ -1,6 +1,7 @@
 //avvia sessione
-session_start();
+
 <?php
+    session_start();
     include 'connessione.php';
 
     $matricola = $_POST['matricola'];
@@ -8,7 +9,6 @@ session_start();
     $password=md5($password);
 
     try{
-
         $sql = "SELECT * FROM dipendenti WHERE matricola = '$matricola' AND password = '$password'";
         $result = $connessione->query($sql);
 
@@ -24,7 +24,7 @@ session_start();
     
     }catch(Exception $e){
         echo $e->getMessage();
-        header("location: /www/login.php");
+        header("location: /www/login.php?error=$e");
     }
 
 ?>
