@@ -39,6 +39,8 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 - invio descrizione problema del cellulare
 - Accesso account Manutentore
 - accesso account dipendente
+- visualizzazione dati profilo dipendente
+- visualizzazione dati profilo manutentore
 - Visulizzazione richieste di un manutentore
 - Individuazione problema
 
