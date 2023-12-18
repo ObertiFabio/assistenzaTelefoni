@@ -62,7 +62,7 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
 **Istruzioni per far funzionare il programma**
 - Avere XAMPP in locale
-- Inserire la cartella "oberti" presente nel repository nellacartella htdocs
+- Inserire la cartella "oberti" presente nel repository nella cartella htdocs
 - Creare un database di nome "oberti"
 - Utlizzare il file .sql presente nella cartella "oberti" presente nel repository e creare le varie tabelle
   
