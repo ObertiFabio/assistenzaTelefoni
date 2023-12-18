@@ -60,6 +60,13 @@ Manutentore(<ins>ID_Manutentore</ins>, password, Nome, Foto, email)<br>
 Problema(<ins>ID_problema</ins>, tipo, tempoRiparazione)<br>
 Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
+**Istruzioni per far funzionare il programma**
+- Avere XAMPP in locale
+- Inserire la cartella "oberti" presente nel repository
+- Creare un database di nome "oberti"
+- Utlizzare il file .sql presente nella cartella "oberti" presente nel repository e creare le varie tabelle
+  
+
 
 **MOCKUP**
 - invio richiesta da parte di un dipendente
