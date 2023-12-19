@@ -66,7 +66,7 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 - Creare un database di nome "oberti"
 - Utlizzare il file .sql presente nella cartella "oberti" presente nel repository e creare le varie tabelle
   
-
+(ATTENZIONE! la funzione "invio richiesta da parte di un dipendente" è funzionante ma manca nella tabella le foreign key "Manutentore_ID" e "Cellulare_ID" dato che non sono stati ancora implementati!)
 
 **MOCKUP**
 - invio richiesta da parte di un dipendente
