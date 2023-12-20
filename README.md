@@ -42,6 +42,9 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 - visualizzazione account dipendente
 - visualizzazione account manutentore
 - Visulizzazione richieste di un manutentore
+- visualizzazione richieste di un dipendente
+- ricerca richieste inviate da un dipendente
+- invio scheda problema da parte di un manutentore
 - Individuazione problema
 
 
