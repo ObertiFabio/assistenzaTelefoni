@@ -67,9 +67,12 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 - Avere XAMPP in locale
 - Inserire la cartella "oberti" presente nel repository nella cartella htdocs
 - Creare un database di nome "oberti"
+- Eliminare nell'sql le righe commentate per evitare l'errore di sintassi 
 - Utlizzare il file .sql presente nella cartella "oberti" presente nel repository e creare le varie tabelle
+
   
 **(ATTENZIONE! la funzione "invio richiesta da parte di un dipendente" è funzionante ma mancano nella tabella le foreign key "Manutentore_ID" e "Cellulare_ID" dato che non sono stati ancora implementati!)**
+
 
 **MOCKUP**
 - invio richiesta da parte di un dipendente
