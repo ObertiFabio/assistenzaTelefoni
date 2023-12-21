@@ -78,7 +78,7 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 **MOCKUP**
 - invio richiesta da parte di un dipendente
 - invio descrizione problema del cellulare
-![mokup_invio_Richiesta](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/a5df0d14-0248-44ca-b59d-085c61040692)
+![dipendente_invioRichiesta](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/5fdf8e96-3c27-4027-8af0-f4aa442c16e7)
 
 - Accesso account Manutentore
 
@@ -91,11 +91,13 @@ Contiene(<ins>problema_id</ins>, <ins>richiesta_ID</ins>)<br>
 
 - Visulizzazione richieste di un manutentore
  
-![elenco_richieste](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/0c5f0d5e-0ae0-4473-9627-05907aa9e3f7)
+
+![manutentore_visualizza](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/d0c75998-08f1-4078-bba1-4ef4732f35c2)
 
 
 - Individuazione problema
 
-  ![problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/cf5917b3-aa9c-4bc1-9667-c18c2bfbf260)
+ ![manutentore_problema](https://github.com/ObertiFabio/assistenzaTelefoni/assets/101709153/67c49ef5-c522-4d15-b5bd-e3465b365882)
+
 
 
