@@ -35,12 +35,13 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 -----> Il manutentore capisce di quale problema si tratta e lo comunica tramite l'attributo "tipo", e fornisce anche un tempo di riparazione 
        indicativo
 
-- invio richiesta da parte di un dipendente
-- invio descrizione problema del cellulare
-- Accesso account Manutentore
-- accesso account dipendente
-- visualizzazione account dipendente
-- visualizzazione account manutentore
+- invio richiesta da parte di un dipendente ✔
+- invio descrizione problema del cellulare ✔
+- Accesso account Manutentore ✔
+- accesso account dipendente ✔
+- visualizzazione account dipendente ✔
+- visualizzazione account manutentore✔
+- registrazione di un manutentore da parte dell'amministratore ✔
 - Visulizzazione richieste di un manutentore
 - visualizzazione richieste di un dipendente
 - ricerca richieste inviate da un dipendente
