@@ -43,7 +43,8 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 - Visualizzazione account dipendente ✔
 - Visualizzazione account manutentore ✔
 - Visualizzazione account amministratore ✔
-- registrazione di un manutentore da parte dell'amministratore ✔
+- Registrazione di un manutentore da parte dell'amministratore ✔
+- Presa carico di una richiesta da parte di un manutentore ✔
 - Visulizzazione richieste di un manutentore
 - visualizzazione richieste di un dipendente
 - ricerca richieste inviate da un dipendente
