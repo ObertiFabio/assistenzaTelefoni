@@ -8,13 +8,13 @@
         $data = $_POST['data']; // Hash the password using MD5
         $stato="inviata";
         $manutentore_id=null;
-        
-        
+        $cellulare_id=$_POST['cellulare_id'];
+       // echo $_POST['cellulare_id'];
 
         // Insert the new request
-        $sql = "INSERT INTO richiesta (dipendente_matricola, descrizione, data, stato, manutentore_id) VALUES (?,?,?,?,?)";
+        $sql = "INSERT INTO richiesta (dipendente_matricola, descrizione, data, stato, manutentore_id, cellulare_id) VALUES (?,?,?,?,?,?)";
         $stmt = $connessione->prepare($sql);
-        $stmt->bind_param("sssss", $dipendente_matricola, $descrizione, $data, $stato, $manutentore_id);
+        $stmt->bind_param("ssssss", $dipendente_matricola, $descrizione, $data, $stato, $manutentore_id, $cellulare_id);
 
         if ($stmt->execute()) {
            echo "richiesta ricevuta! Provvederemo a risolvere il problema<br>";

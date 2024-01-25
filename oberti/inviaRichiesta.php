@@ -6,6 +6,9 @@
         header("location: login.php");
         exit;
     }
+
+    $cellulari=$connessione->query("SELECT * FROM cellulare");
+
     ?>
 <!DOCTYPE html>
 <html>
@@ -22,10 +25,18 @@
         <label for="data">Inserisci la data:</label>
         <input type="datetime-local" name="data" id="data" required><br>
 
-
+        <label for="cellulare_id">Inserisci l'ID del cellulare:</label>
+        <select id="cellulare_id" name="cellulare_id" required>
+            <?php
+            while($cellulare = $cellulari->fetch_assoc()) {
+                echo "<option value=\"".$cellulare["id_cellulare"]."\">".$cellulare["marca"]." id:[".$cellulare["id_cellulare"]."]</option>";
+            }
+            ?>
+        </select><br>
         
-        <input type="submit" value="INVIA">
+        <input type="submit" value="INVIA"><br><br>
+        <a href="index.php">Torna alla Home</a>
     </form>
-   
+    
 </body>
 </html>

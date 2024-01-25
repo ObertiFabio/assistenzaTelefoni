@@ -86,22 +86,14 @@
         `;
         e.target.parentNode.insertAdjacentHTML("beforeend", html);
     }
-
-   
-
-
-
     
-
+    
 const buttons = document.querySelectorAll("#pac");
 buttons.forEach(btn => btn.addEventListener("click", prendiInCarico));
     
 </script>
 
-
 <a href="index.php">Torna alla Home</a>
-
 
 </body>
 </html>
-
