@@ -1,7 +1,6 @@
 <?php
     session_start();
     require 'connessione.php';
-    echo "entrato";
 
     if(!isset($_POST["id_richiesta"])){
        $id=$_POST["id"];
