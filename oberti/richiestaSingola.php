@@ -25,18 +25,23 @@
     echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
     echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
     echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
-    echo "<hr>";
     echo "</div>";
 
-     
-
-
-    
-   
-    
 ?>
+
 <button>Gestisci</button>
 <a href='visualizzaRichiesteManutentore.php'><button>Torna indietro</button></a>
+<div id="divDaRiempire"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $("button").click(function(){
+    $.ajax({url: "gestioneProblema.php", success: function(result){
+      $("#divDaRiempire").html(result);
+    }});
+  });
+});
+</script>
 
 </body>
 </html>

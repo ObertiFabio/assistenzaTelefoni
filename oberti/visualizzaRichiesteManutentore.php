@@ -21,12 +21,17 @@
         while($richieste = $result->fetch_assoc()){
             echo "<div data-id='{$richieste['id_richiesta']}'>";
             echo "<p><strong>Id richiesta:</strong> {$richieste['id_richiesta']}</p>";
+            /*
             echo "<p><strong>Matricola:</strong> {$richieste['dipendente_matricola']}</p>";
             echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
             echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
             echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
+            */
             echo "<a href='richiestaSingola.php?id_richiesta={$richieste['id_richiesta']}'<button>Apri</button></a>";
+            /*
+           
             echo "<hr>";
+            */
             echo "</div>";
            
         }
