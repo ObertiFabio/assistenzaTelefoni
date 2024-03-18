@@ -16,6 +16,7 @@
         echo "<a href='logout.php'>Logout</a><br><br>";
         echo "<a href='profilo.php'>Visualizza il tuo profilo</a><br><br>";
         echo "<a href='inviaRichiesta.php'>Invia richiesta</a><br><br>";
+        echo "<a href='richiesteDipendente.php'>Le richieste che hai inviato:</a><br><br>";
         echo "<p> Ruolo: {$_SESSION['ruolo']}</p>";
         echo "</body>";
         echo "</html>";

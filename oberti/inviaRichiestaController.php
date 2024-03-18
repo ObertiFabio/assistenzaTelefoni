@@ -28,5 +28,5 @@
     $connessione->close();
 ?>
 <body>
-    <br> <a href = "./index.php">Torna alla home</a>
+    <br><a href = "./index.php">Torna alla home</a>
 </body>

@@ -13,7 +13,7 @@ CREATE TABLE cellulare (
 );
 
 CREATE TABLE manutentore (
-    id_manutentore CHAR(10) PRIMARY KEY UNIQUE,
+    id_manutentore CHAR(10) PRIMARY KEY,
     nome CHAR(20) NOT NULL,
     foto CHAR(20) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
@@ -35,13 +35,13 @@ CREATE TABLE richiesta (
 );
 
 CREATE TABLE problema (
-    id_problema CHAR(10) PRIMARY KEY,
+    id_problema INTEGER PRIMARY KEY AUTO_INCREMENT,
     tipo CHAR(20) NOT NULL,
     tempo_riparazione CHAR(20) NOT NULL
 );
 
 CREATE TABLE contiene (
-    id_problema CHAR(10),
+    id_problema INTEGER,
     id_richiesta INTEGER,
     PRIMARY KEY (id_problema, id_richiesta),
     FOREIGN KEY (id_problema) REFERENCES problema(id_problema) ON DELETE CASCADE,

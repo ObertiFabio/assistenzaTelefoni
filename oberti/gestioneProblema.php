@@ -5,7 +5,9 @@
 <body>
     <h1>Resoconto problema</h1>
     <form method="POST" action="gestioneProblemaController.php">
-        <label for="tipo">Inserisci il tipo di problema:</label>
+    <input type="hidden" name="id_richiesta" value=' <?php echo $_GET["id_richiesta"] ?>'>
+    
+    <label for="tipo">Inserisci il tipo di problema:</label>
         <input type="text" name="tipo" id="tipo" required><br>
 
         <label for="tempo_riparazione">Inserisci il tempo di riparazione:</label>
