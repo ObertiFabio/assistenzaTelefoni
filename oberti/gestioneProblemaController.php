@@ -26,18 +26,18 @@
     }
     $stmt->close();
 
-
-    $query2="UPDATE richiesta SET stato='completata' WHERE id_richiesta = ?";
+    /*
+    $query2="UPDATE richiesta SET stato='in riparazione' WHERE id_richiesta = ?";
     $stmt2= $connessione->prepare($query2);
     $stmt2->bind_param("s", $id_richiesta);
     if($stmt2->execute()){
-        echo "Sato della richiesta modificato<br>";
+        echo "Il tuo telefono è in riparazione<br>";
     }
     else{
         echo "Errore: " . $query2 . "<br>" . $connessione->error;
     }
     $stmt2->close();
-
+    */
     
     $query= "INSERT INTO contiene (id_richiesta, id_problema) VALUES (?,?)";
     $stmto = $connessione->prepare($query);
@@ -48,8 +48,10 @@
          echo "Errore: " . $query . "<br>" . $connessione->error;
     }
 
-    
     $stmto->close();
+
+    
+
     
     echo "<a href='index.php'>Torna alla home</a>";
 
