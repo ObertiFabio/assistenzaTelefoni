@@ -1,19 +1,19 @@
 <?php
 
-include 'connessione.php';
+include '../connessione.php';
 
 
 // Retrieve all users from the database
-$sql = "SELECT * FROM richiesta";
+$sql = "SELECT * FROM cellulare";
 $result = $connessione->query($sql);
 
 if ($result->num_rows > 0) {
-    $richieste = array();
+    $cellulari = array();
     while ($row = $result->fetch_assoc()) {
-        $richieste[] = $row;
+        $cellulari[] = $row;
     }
     // Convert the users array to JSON
-    $json = json_encode($richieste , JSON_PRETTY_PRINT);
+    $json = json_encode($cellulari , JSON_PRETTY_PRINT);
 
     // Set the response headers
     header('Content-Type: application/json');

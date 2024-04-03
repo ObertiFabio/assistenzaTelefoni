@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+# Rewrite per le richieste API
+RewriteRule ^cellulari$ apiCellulari.php [L]
+RewriteRule ^dipendenti$ apiDipendenti.php [L]
+RewriteRule ^manutentori$ apiManutentore.php [L]
+RewriteRule ^richieste$ apiRichieste.php [L]

@@ -1,19 +1,19 @@
 <?php
 
-include 'connessione.php';
+include '../connessione.php';
 
 
 // Retrieve all users from the database
-$sql = "SELECT * FROM manutentore";
+$sql = "SELECT * FROM dipendenti";
 $result = $connessione->query($sql);
 
 if ($result->num_rows > 0) {
-    $manutentori = array();
+    $dipendenti = array();
     while ($row = $result->fetch_assoc()) {
-        $manutentori[] = $row;
+        $dipendenti[] = $row;
     }
     // Convert the users array to JSON
-    $json = json_encode($manutentori , JSON_PRETTY_PRINT);
+    $json = json_encode($dipendenti , JSON_PRETTY_PRINT);
 
     // Set the response headers
     header('Content-Type: application/json');
