@@ -34,7 +34,7 @@
       echo "<p><strong>Data:</strong> {$problemi['data']}</p>";
       echo "<p><strong>Stato:</strong> {$problemi['stato']}</p>";
       echo "</div>";
-      echo "<a href='telefonoRiparato.php'><button>Telefono Riparato</button></a>";
+      echo "<a href='telefonoRiparato.php?id_richiesta=" . $problemi["id_richiesta"] . "'><button>Telefono Riparato</button></a>";
       echo "<a href='visualizzaRichiesteManutentore.php'><button>Torna indietro</button></a>";
     }
     else{

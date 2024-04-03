@@ -39,32 +39,40 @@
     if($ruolo == 'manutentore'){
         $query->execute();
         $result = $query->get_result();
-        while($richieste = $result->fetch_assoc()){
-            echo "<div data-id='{$richieste['id_richiesta']}'>";
-            echo "<p><strong>Id richiesta:</strong> {$richieste['id_richiesta']}</p>";
-            echo "<p><strong>Matricola:</strong> {$richieste['dipendente_matricola']}</p>";
-            echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
-            echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
-            echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
-            echo "<button type='button' id='pac'>Presa a carico</button>";
-            echo "<hr>";
-            echo "</div>";
-           
+        if($result->num_rows == 0){
+            echo "<p>Nessuna richiesta da visualizzare</p>";
+        }else{
+            while($richieste = $result->fetch_assoc()){
+                echo "<div data-id='{$richieste['id_richiesta']}'>";
+                echo "<p><strong>Id richiesta:</strong> {$richieste['id_richiesta']}</p>";
+                echo "<p><strong>Matricola:</strong> {$richieste['dipendente_matricola']}</p>";
+                echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
+                echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
+                echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
+                echo "<button type='button' id='pac'>Presa a carico</button>";
+                echo "<hr>";
+                echo "</div>";
+            
+            }
         }
     }
     else if($ruolo == 'amministratore'){
         $query->execute();
         $result = $query->get_result();
-        while($richieste = $result->fetch_assoc()){
-            echo "<div id='{$richieste['id_richiesta']}'>";
-            echo "<p><strong>Id richiesta:</strong> {$richieste['id_richiesta']}</p>";
-            echo "<p><strong>Matricola:</strong> {$richieste['dipendente_matricola']}</p>";
-            echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
-            echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
-            echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
-            echo "<button type='button' onclick='eliminaRichiesta({$richieste['id_richiesta']})'>Elimina richiesta</button>";
-            echo "</div>";
-            echo "<hr>";
+        if($result->num_rows == 0){
+            echo "<p>Nessuna richiesta da visualizzare</p>";
+        }else{
+            while($richieste = $result->fetch_assoc()){
+                echo "<div id='{$richieste['id_richiesta']}'>";
+                echo "<p><strong>Id richiesta:</strong> {$richieste['id_richiesta']}</p>";
+                echo "<p><strong>Matricola:</strong> {$richieste['dipendente_matricola']}</p>";
+                echo "<p><strong>Descrizione:</strong> {$richieste['descrizione']}</p>";
+                echo "<p><strong>Data:</strong> {$richieste['data']}</p>";
+                echo "<p><strong>Stato:</strong> {$richieste['stato']}</p>";
+                echo "<button type='button' onclick='eliminaRichiesta({$richieste['id_richiesta']})'>Elimina richiesta</button>";
+                echo "</div>";
+                echo "<hr>";
+            }
         }
     }
     
