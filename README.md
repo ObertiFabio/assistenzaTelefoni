@@ -47,12 +47,11 @@ aziende con manutentori  che devono organizzare la gestione dei problemi ai disp
 - Registrazione di un cellulare da parte dell'amministratore ✔
 - eliminazione di una richiesta da parte dell'amministratore ✔
 - Presa carico di una richiesta da parte di un manutentore ✔
-- Visulizzazione richieste di un manutentore
-- visualizzazione richieste in sospeso di un dipendente
-- ricerca richieste inviate da un dipendente
-- ricerca delle richieste inviate in una specifica data
-- invio scheda problema da parte di un manutentore
-- Individuazione problema
+- Visulizzazione richieste di un manutentore ✔
+- visualizzazione richieste in sospeso di un dipendente ✔
+- ricerca richieste inviate da un dipendente ✔
+- invio scheda problema da parte di un manutentore ✔
+- Individuazione problema ✔
 
 
 **Diagramma ER**
