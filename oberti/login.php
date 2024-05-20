@@ -2,9 +2,11 @@
 <html>
 <head>
     <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h2>Login</h2>
+    <h1>Benvenuto a DefaultDevice Organizer!</h1>
+    <h2>Accedi:</h2>
     <form method="POST" action="loginController.php">
         <label for="matricola">Matricola:</label>
         <input type="text" id="matricola" name="matricola" required><br><br>

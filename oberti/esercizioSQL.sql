@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS oberti;
+CREATE DATABASE oberti;
+USE oberti;
+
 CREATE TABLE dipendenti (
     matricola VARCHAR(10) PRIMARY KEY,
     nome VARCHAR(42) NOT NULL,

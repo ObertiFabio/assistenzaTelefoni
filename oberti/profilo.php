@@ -1,12 +1,13 @@
 <html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
     <body>
         <h1>Questi sono i tuoi dati!!</h1>
         
 
     </body>
-</html>
-
-<?php
+    <?php
     session_start();
     require 'connessione.php';
 
@@ -56,4 +57,7 @@
     
 ?>
 <a href="index.php">Torna alla Home</a>
+</html>
+
+
 

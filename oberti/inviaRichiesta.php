@@ -13,6 +13,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Facci sapere il problema al tuo cellulare!</title>
     </head>
 <body>

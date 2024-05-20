@@ -11,7 +11,7 @@
         $stmt->bind_param("s", $matricola);
         $stmt->execute();
         $risultato = $stmt->get_result();
-
+        
         
         if ($risultato->num_rows > 0) {
             $user = $risultato->fetch_assoc();

@@ -1,4 +1,8 @@
-<?php
+<html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+    <?php
     session_start();
     require 'connessione.php';
 
@@ -54,5 +58,8 @@
         exit;
     }
 
-?>
+    ?>
+
+</html>
+
 
